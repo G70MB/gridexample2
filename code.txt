@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>G70MB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+    }
+    p{
+      font-size: 3rem;
+      padding: 0;
+      margin: 0;
+      font-family: 'Cedarville Cursive', cursive;
+      color: black;
+      text-decoration: none;
+    }
+    a{
+      text-decoration: none;
+
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      background-color: black;
+      width: 748px;
+      height: 746px;
+      margin-right: 200px;
+    }
+    #a{
+      grid-column: span 1;
+      grid-row: span 1;
+      background-color:#E72F24 ;
+    }
+    #b{
+      grid-column: span 3;
+      grid-row: span 1;
+      background-color:#F0F1EC ;
+    }
+    #c{
+      grid-column: span 1;
+      grid-row: span 2;
+      background-color:#F0F1EC ;
+    }
+    #d{
+      grid-column: span 2;
+      grid-row: span 2;
+      background-color:#F0F1EC ;
+    }
+    #e{
+      grid-column: span 1;
+      grid-row: span 1;
+      background-color:#004592 ;
+      border: 10px solid;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+    }
+    #f{
+      grid-column: span 1;
+      grid-row: span 1;
+      background-color:#F0F1EC ;
+    }
+    #g{
+      grid-column: span 1;
+      grid-row: span 1;
+      background-color:#F9D01E ;
+    }
+    #h{
+      grid-column: span 1;
+      grid-row: span 1;
+      background-color:#232629 ;
+    }
+    #i{
+      grid-area: 3 / 4 / -1 / -1 ;
+      background-color:#F0F1EC ;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+    <div id="e"></div>
+    <div id="f"></div>
+    <div id="g"></div>
+    <div id="h"></div>
+    <div id="i"></div>
+  </div>
+  <a href="./code.txt" download><p>Code</p></a>
+</body>
+
+</html>
